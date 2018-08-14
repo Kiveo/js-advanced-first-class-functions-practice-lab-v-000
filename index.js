@@ -14,6 +14,7 @@ function logDriversByHometown(drivers, location) {
   let filtered_drivers = drivers.filter(function(driver, location) {
     location == driver.hometown
   });
+
   filtered_drivers.forEach(function(driver){
     console.log(driver.name);
   })
