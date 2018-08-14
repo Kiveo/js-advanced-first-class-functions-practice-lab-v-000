@@ -20,6 +20,8 @@ function logDriversByHometown(drivers, location) {
 }
 
 function driversByRevenue(drivers) {
-  debugger;
+  revenue_drivers = drivers.map(function(driver){
+    return driver.revenue
+  })
   return drivers.sort();
 }
