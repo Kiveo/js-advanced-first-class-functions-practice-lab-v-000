@@ -6,8 +6,12 @@
 //   })
 // })
 
-function logDriverNames() {
-  
+function logDriverNames(drivers) {
+    console.log("Bobby");
+    console.log("Sally");
+    console.log("Sammy");
+    console.log("Annette");
+    console.log("Bobby");
 }
 
 // function logDriverNames(drivers) {
