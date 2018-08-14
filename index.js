@@ -31,6 +31,5 @@ function driversByName(drivers) {
 }
 
 function totalRevenue(drivers) {
-  current_value = 0;
   drivers.reduce((total, driver.revenue) => total + driver.revenue)
 }
