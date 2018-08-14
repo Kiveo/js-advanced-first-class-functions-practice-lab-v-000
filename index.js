@@ -29,7 +29,7 @@ function driversByName(drivers) {
   // });
 
   // return driver_names.sort((a,b) => a.localeCompare(b, 'en', {ignorePunctuation: true}) );
-  drivers.sort(function(a,b){
+  return drivers.sort(function(a,b){
     return a.name.localeCompare(b.name);
   })
 
