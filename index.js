@@ -19,8 +19,3 @@ function logDriversByHometown(drivers, location) {
   })
 
 }
-
-
-// var lucky = numbers.filter(function(number) {
-//   return number > 7;
-// });
