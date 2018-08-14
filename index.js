@@ -29,10 +29,10 @@ function driversByName(drivers) {
   })
 }
 
-function totalRevenue(drivers) {
-  let total_sum = 0;
-  drivers.forEach(function(driver) {
-    total_sum + driver.revenue;
-  })
-  return total_sum;
-}
+// function totalRevenue(drivers) {
+//   let total_sum = 0;
+//   drivers.forEach(function(driver) {
+//     total_sum + driver.revenue;
+//   })
+//   return total_sum;
+// }
