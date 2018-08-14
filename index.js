@@ -24,6 +24,7 @@ function driversByRevenue(drivers) {
 }
 
 function driversByName(drivers) {
+  // slice(0) creates a clone starting at index 0 : AKA NON-DESTRUCTIVE
   return drivers.slice(0).sort(function(a,b){
     return a.name.localeCompare(b.name);
   })
