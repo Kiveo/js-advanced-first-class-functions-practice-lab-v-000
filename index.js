@@ -20,5 +20,6 @@ function logDriversByHometown(drivers, location) {
 }
 
 function driversByRevenue(drivers) {
+  debugger;
   return drivers.sort();
 }
