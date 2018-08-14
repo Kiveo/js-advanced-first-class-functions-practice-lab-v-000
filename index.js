@@ -34,5 +34,5 @@ function totalRevenue(drivers) {
   // drivers.reduce(function (a, b) {
   // return {revenue: a.revenue + b.revenue}; // returns object with property revenue
   // })
-  return drivers.reduce((a, b) => ( (revenue: a.revenue + b.revenue) ));
+  return drivers.reduce((a, b) => (revenue: a.revenue + b.revenue ));
 }
