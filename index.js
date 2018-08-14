@@ -16,5 +16,5 @@ function logDriversByHometown(drivers, location) {
   }
   return filtered_drivers.forEach(function(driver){
     console.log(driver.name));
-  )}
+  }
 }
