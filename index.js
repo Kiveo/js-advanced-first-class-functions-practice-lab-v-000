@@ -31,9 +31,7 @@ function driversByName(drivers) {
 }
 
 function totalRevenue(drivers) {
-  let total_sum = 0;
-  drivers.forEach(function(driver) {
-    total_sum + driver.revenue;
+  drivers.reduce(function(driver, 0) {
+    driver.revenue;
   })
-  return total_sum;
 }
