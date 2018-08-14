@@ -27,7 +27,7 @@ function driversByName(drivers) {
   let driver_names = drivers.map(function (driver) {
     return driver.name;
   });
-
+  console.log(driver_names);
   driver_names.sort((a,b) => a.localeCompare(b, 'en', {ignorePunctuation: true}) );
 
 }
