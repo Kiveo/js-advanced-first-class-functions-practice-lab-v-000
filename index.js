@@ -23,6 +23,9 @@ function driversByRevenue(drivers) {
   return drivers.slice(0).sort(function(driver_a, driver_b){return driver_a.revenue - driver_b.revenue});
 }
 
-function driversByName() {
-  
+function driversByName(drivers) {
+  drivers.sort((a,b) => a.localeCompare(b, 'en', {ignorePunctuation: true}) );
 }
+
+var items = ['réservé', 'Premier', 'Cliché', 'communiqué', 'café', 'Adieu'];
+items.sort((a, b) => a.localeCompare(b, 'fr', {ignorePunctuation: true}));
