@@ -18,8 +18,3 @@ function logDriversByHometown(drivers, location) {
     console.log(driver.name));
   }
 }
-
-
-let doubled = arr.map(num => {
-    return num * 2;
-});
