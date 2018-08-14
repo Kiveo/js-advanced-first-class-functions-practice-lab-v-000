@@ -24,10 +24,10 @@ function driversByRevenue(drivers) {
 }
 
 function driversByName(drivers) {
-  let driver_names = drivers.map((driver, index, drivers) => {
-      return driver.name
-  })
-  
+  let driver_names = drivers.map(function (driver) {
+    return driver.name;
+  });
+
   driver_names.sort((a,b) => a.localeCompare(b, 'en', {ignorePunctuation: true}) );
 
 }
