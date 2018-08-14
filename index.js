@@ -12,8 +12,11 @@ function compareHometown(driver, location) {
 // log each driver name whose home matches location
 function logDriversByHometown(drivers, location) {
   debugger;
-  let filtered_drivers = drivers.filter(compareHometown(driver, location));
-  filtered_drivers.forEach(function(driver) {
-    console.log(driver.name);
-  })
+  let filtered_drivers = drivers.filter(compareHometown(driver, location))
+  return filtered_drivers;
 }
+
+
+var lucky = numbers.filter(function(number) {
+  return number > 7;
+});
