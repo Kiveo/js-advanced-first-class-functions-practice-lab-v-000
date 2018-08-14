@@ -14,9 +14,9 @@ function logDriversByHometown(drivers, location) {
   let filtered_drivers = drivers.filter(driver => {
     driver.hometown == location);
   }
-  return filtered_drivers.forEach(function(driver){
-    console.log(driver.name));
-  }
+  // return filtered_drivers.forEach(function(driver){
+  //   console.log(driver.name));
+  // }
 }
 
 function compareHometown(driver, location) {
