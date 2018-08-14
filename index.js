@@ -2,7 +2,6 @@
 
 function logDriverNames(drivers) {
   drivers.forEach(function(driver){
-    debugger;
     console.log(driver.name);
   })
 }
