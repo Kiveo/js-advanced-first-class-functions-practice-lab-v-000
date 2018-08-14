@@ -28,7 +28,7 @@ function driversByName(drivers) {
     return driver.name;
   });
 
-  consolelog(driver_names.sort((a,b) => a.localeCompare(b, 'en', {ignorePunctuation: true}) ));
+  return driver_names.sort((a,b) => a.localeCompare(b, 'en', {ignorePunctuation: true}) );
 
 }
 
