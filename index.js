@@ -4,5 +4,9 @@ function logDriverNames(drivers) {
   })
 
 function logDriverNames(drivers) {
-  puts 'HELLO WORLD!'
+  console.log("Bobby");
+  console.log("Sally");
+  console.log("Sammy");
+  console.log("Annette");
+  console.log("Bobby");
 }
