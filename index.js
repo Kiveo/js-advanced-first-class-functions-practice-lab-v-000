@@ -31,6 +31,7 @@ function driversByName(drivers) {
 }
 
 function totalRevenue(drivers) {
+
   let sum = drivers.reduce((a, b) => ({revenue: a.revenue + b.revenue}));
   return sum;
 }
