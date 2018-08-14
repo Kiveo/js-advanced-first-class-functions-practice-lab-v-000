@@ -31,5 +31,7 @@ function driversByName(drivers) {
 }
 
 function totalRevenue(drivers) {
-
+  drivers.reduce(function (a, b) {
+  return {revenue: a.revenue + b.revenue}; // returns object with property revenue
+  })
 }
