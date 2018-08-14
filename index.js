@@ -24,8 +24,13 @@ function driversByRevenue(drivers) {
 }
 
 function driversByName(drivers) {
-  drivers.sort((a,b) => a.localeCompare(b, 'en', {ignorePunctuation: true}) );
+  let driver_names = drivers.map(function(driver){
+    return driver.name  
+  })
+
+  driver_names.sort((a,b) => a.localeCompare(b, 'en', {ignorePunctuation: true}) );
+  
 }
 
-var items = ['réservé', 'Premier', 'Cliché', 'communiqué', 'café', 'Adieu'];
-items.sort((a, b) => a.localeCompare(b, 'fr', {ignorePunctuation: true}));
+// var items = ['réservé', 'Premier', 'Cliché', 'communiqué', 'café', 'Adieu'];
+// items.sort((a, b) => a.localeCompare(b, 'fr', {ignorePunctuation: true}));
