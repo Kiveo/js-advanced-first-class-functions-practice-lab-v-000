@@ -11,7 +11,6 @@ function compareHometown(location) {
 }
 // log each driver name whose home matches location
 function logDriversByHometown(drivers, location) {
-  new_array = drivers.filter(compareHometown);
-  debugger;
-  return new_array.map(this.name)
+  filtered_drivers = drivers.filter(driver => driver.hometown == location);
+  return filtered_drivers.forEach(console.log(driver.name));
 }
