@@ -13,7 +13,7 @@ function compareHometown(driver, location) {
 function logDriversByHometown(drivers, location) {
   let filtered_drivers = drivers.filter(function(driver, location) {
     return location == driver.hometown
-  }
+  });
   return filtered_drivers;
 
 }
