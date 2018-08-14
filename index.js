@@ -2,3 +2,7 @@
 function logDriverNames(drivers) {
   puts "Hello World"
   })
+
+function logDriverNames(drivers) {
+  puts 'HELLO WORLD!'
+}
