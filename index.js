@@ -8,7 +8,7 @@ function logDriverNames(drivers) {
 }
 
 function compareHometown(location) {
-  return self.hometown == location
+  self.hometown == location
 }
 // log each driver name whose home matches location
 function logDriversByHometown(drivers, location) {
