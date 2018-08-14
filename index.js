@@ -18,3 +18,7 @@ function logDriversByHometown(drivers, location) {
     console.log(driver.name));
   }
 }
+
+function compareHometown(driver, location) {
+    return location == driver;
+}
