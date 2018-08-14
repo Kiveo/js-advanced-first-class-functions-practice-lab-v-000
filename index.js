@@ -23,5 +23,5 @@ function driversByRevenue(drivers) {
   revenue_drivers = drivers.map(function(driver){
     return driver.revenue
   })
-  return drivers.sort();
+  return revenue_drivers;
 }
