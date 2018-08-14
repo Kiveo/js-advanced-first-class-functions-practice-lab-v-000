@@ -7,15 +7,18 @@ function logDriverNames(drivers) {
 }
 
 function compareHometown(driver, location) {
-  return location == this.hometown;
+  return location == driver.hometown;
 }
 // log each driver name whose home matches location
 function logDriversByHometown(drivers, location) {
-  let filtered_drivers = drivers.filter(compareHometown(location))
+  let filtered_drivers = drivers.filter(function(driver, location) {
+    return location == driver.hometown
+  }
   return filtered_drivers;
+
 }
 
 
-var lucky = numbers.filter(function(number) {
-  return number > 7;
-});
+// var lucky = numbers.filter(function(number) {
+//   return number > 7;
+// });
